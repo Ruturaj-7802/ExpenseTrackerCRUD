@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <style>
+            .image
+            {
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+                position:absolute;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .common
+            {
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body class="image">
+        <div class="common">
+            <form action="insert.php" method="post">
+                <label>Expense Type-</label>
+                <input type="text" name="expense">
+                <br>
+                <label>Amount-</label>
+                <input type="number" name="amount">
+                <br><br>
+                <input type="submit" value="Submit Record">
+                <br><br>
+            </form>
+            <button>Display</button>
+        </div>
+    </body>
+    
+</html>
